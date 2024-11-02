@@ -10,6 +10,7 @@ Fill your data
 let username = '...'; - steam username
 let password = '...'; - steam password
 let secret = '...'; - steam secret key (https://youtu.be/TMHhCq68IZ0)
+let games = [...] - example: https://store.steampowered.com/app/**730**/CounterStrike_2/
 ```
 
 `2.`
