@@ -1,0 +1,28 @@
+{
+  "name": "steam-hours-booster",
+  "version": "1.0.0",
+  "description": "Steam hours booster made by rxaven1337.",
+  "main": "index.js",
+  "scripts": {
+    "test": "pm2 start index.js --name=Worker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxaven1337/steam-hours-booster.git"
+  },
+  "keywords": [
+    "steam",
+    "hours",
+    "booster"
+  ],
+  "author": "rxaven1337.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rxaven1337/steam-hours-booster/issues"
+  },
+  "homepage": "https://github.com/rxaven1337/steam-hours-booster#readme",
+  "dependencies": {
+    "steam-totp": "^2.1.2",
+    "steam-user": "^5.2.0"
+  }
+}
